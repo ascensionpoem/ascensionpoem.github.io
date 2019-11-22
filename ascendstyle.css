@@ -17,3 +17,13 @@ body {
     align-content: center;
     margin: 0 auto;
 }
+
+/* header stuff */
+header {
+    text-align: center;
+}
+
+/* article stuff */
+article {
+    text-align: center;
+}
