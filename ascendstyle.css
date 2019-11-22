@@ -1,0 +1,6 @@
+﻿/* rest styles */
+header, article, h1, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
