@@ -15,4 +15,5 @@ body {
 .container {
     width: 75%;
     align-content: center;
+    margin: 0 auto;
 }
