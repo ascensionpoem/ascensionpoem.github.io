@@ -23,7 +23,12 @@ header {
     text-align: center;
 }
 
+header h1 {
+    padding: 20px 0 20px 0;
+}
+
 /* article stuff */
 article {
     text-align: center;
+    padding-top: 20px;
 }
