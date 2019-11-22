@@ -4,3 +4,15 @@ header, article, h1, p {
     margin: 0;
     border: 0;
 }
+
+/* body bg setup */
+body {
+    background-image: url("images/paper_background.jpg");
+    background-size: 100%;
+}
+
+/* center main content */
+.container {
+    width: 75%;
+    align-content: center;
+}
