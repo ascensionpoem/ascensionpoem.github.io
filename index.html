@@ -11,6 +11,19 @@
         <header>
             <h1>A Presentation on John Donne's "Ascension"</h1>
         </header>
+        <div class="playbutton">
+            <script>
+                var audio = new Audio("audio/placeholder.mp3");
+
+                audio.oncanplaythrough = function () {
+                    audio.play();
+                }
+
+                audio.loop = false;
+            </script>
+
+            <input type="image" src="images/playbutton.png" alt="Play" onclick="audio.play()" width="100" height="50">
+        </div>
         <article>
             <p id="line1">Salute the last and everlasting day,</p>
             <p id="line2">Joy at th' uprising of this Sun, and Son,</p>
@@ -23,10 +36,13 @@
             <p id="line9">O strong Ram, which hast batter'd heaven for me!</p>
             <p id="line10">Mild Lamb, which with Thy Blood hast mark'd the path!</p>
             <p id="line11">Bright Torch, which shinest, that I the way may see!</p>
-            <p id="line12">O, with Thy own Blood quench THy own just wrath;</p>
+            <p id="line12">O, with Thy own Blood quench Thy own just wrath;</p>
             <p id="line13">And if Thy Holy Spirit my Muse did raise,</p>
             <p id="line14">Deign at my hands this crown of prayer and praise.</p>
         </article>
+        <div class="controlpanel">
+            <p>filler testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller test</p>
+        </div>
     </div>
 </body>
 </html>

@@ -13,7 +13,7 @@ body {
 
 /* center main content */
 .container {
-    width: 75%;
+    max-width: 750px;
     align-content: center;
     margin: 0 auto;
 }
@@ -27,8 +27,36 @@ header h1 {
     padding: 20px 0 20px 0;
 }
 
+/* play button */
+.playbutton {
+    text-align: center;
+    width: 100%;
+}
+
+.playbutton input {
+    width: 100px;
+    height: 50px;
+    box-shadow: black 2px 2px;
+}
+
+.playbutton input:active {
+    position: relative;
+    left: 2px;
+    top: 2px;
+    box-shadow: none;
+}
+
 /* article stuff */
 article {
     text-align: center;
+    padding-top: 20px;
+    float: left;
+    width: 80%;
+}
+
+/* control panel */
+.controlpanel {
+    float: right;
+    width: 20%;
     padding-top: 20px;
 }
