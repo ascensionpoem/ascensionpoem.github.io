@@ -14,16 +14,16 @@
         </header>
         <div class="playbutton">
             <script>
-                var audio = new Audio("audio/placeholder.mp3");
+                var speech = new Audio("audio/poem_reading.wav");
+                speech.loop = false;
 
-                audio.oncanplaythrough = function () {
-                    audio.play();
+                function playSpeech() {
+                    speech.load();
+                    speech.play();
                 }
-
-                audio.loop = false;
             </script>
 
-            <input type="image" src="images/playbutton.jpg" alt="Play" onclick="audio.play()" width="100" height="50">
+            <input type="image" src="images/playbutton.jpg" alt="Play" onclick="playSpeech()" width="100" height="50">
         </div>
         <article>
             <p id="line1">Salute the last and everlasting day,</p>
