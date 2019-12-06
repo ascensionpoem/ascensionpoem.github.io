@@ -19,13 +19,14 @@ body {
 }
 
 /* header stuff */
-header {
-    text-align: center;
+header p {
+    text-align: right;
 }
 
-header h1 {
-    padding: 20px 0 20px 0;
-}
+    header h1 {
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
 
 /* play button */
 .playbutton {
@@ -50,13 +51,5 @@ header h1 {
 article {
     text-align: center;
     padding-top: 20px;
-    float: left;
-    width: 80%;
-}
-
-/* control panel */
-.controlpanel {
-    float: right;
-    width: 20%;
-    padding-top: 20px;
+    width: 100%;
 }

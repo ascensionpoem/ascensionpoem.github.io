@@ -9,10 +9,8 @@
 </head>
 <body>
     <div class="container">
-        <audio autoplay loop hidden>
-            <source src="audio/invitation_to_the_castle_ball.mp3" type="audio/mp3">
-        </audio>
         <header>
+            <p>Made by Ben Persick</p>
             <h1>A Presentation on John Donne's "Ascension"</h1>
         </header>
         <div class="playbutton">
@@ -20,9 +18,14 @@
                 var speech = new Audio("audio/poem_reading.wav");
                 speech.loop = false;
 
+                var bgMusic = new Audio("audio/invitation_to_the_castle_ball.wav");
+                bgMusic.loop = true;
+
                 function playSpeech() {
                     speech.load();
                     speech.play();
+
+                    bgMusic.play();
                 }
             </script>
 
@@ -44,9 +47,6 @@
             <p id="line13">And if Thy Holy Spirit my Muse did raise,</p>
             <p id="line14">Deign at my hands this crown of prayer and praise.</p>
         </article>
-        <div class="controlpanel">
-            <p>filler testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller testfiller test</p>
-        </div>
     </div>
 </body>
 </html>
